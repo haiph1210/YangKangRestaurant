@@ -1,0 +1,86 @@
+
+##-----------------
+## Sever
+##-----------------
+#server:
+#  port: 8001
+#
+#spring:
+#  application:
+#    name: user_manager-service
+#  data:
+#    web:
+#      sort:
+#        sort-parameter: sort
+#      pageable:
+#        page-parameter: page
+#        one-indexed-parameters: true
+#        default-page-size: 10
+#        size-parameter: size
+##  mail:
+##    port: 587
+##    username: haiph12102001@gmail.com
+##    password: o k s y v v a f c f o o r q m k
+##    properties:
+##      mail:
+##        smtp:
+##          auth: true
+##          starttls:
+##            enable: true
+#
+#  datasource.url: jdbc:mysql://localhost:3306/yangkang_user_manager?characterEncoding=UTF-8&serverTimeZone=UTC
+#  datasource.username: root
+#  datasource.password: admin123@
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+##      use-new-id-generator-mappings: true
+#    properties:
+#      id:
+#        uuid_generator_def=org:
+#          hibernate:
+#            id: UUIDGenerator
+#      globally_quoted_identifiers: true
+#      highlight_sql: true
+#      format_sql: false
+#      use_sql_comments: false
+#      type: trace_uuid_binary
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+#
+##-----------------
+## Eurenka
+##-----------------
+#eureka:
+#  client:
+#    service-url:
+#      default-zone: http://localhost:8761/eureka
+
+#-----------------
+# Sercurity
+#-----------------
+#haiph:
+#  app:
+#    jwtSecret: 5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
+#    jwtExpirationMs: 7200000
+
+
+haiph:
+  app:
+    jwtSecret: 5367566B59703373367639792F423F4528482B4D6251655468576D5A71347437
+    jwtExpirationMs: 7200000
+
+#---------------------
+# EMAIL
+#---------------------
+#  spring.mail.host=smtp.gmail.com
+#  spring.mail.port=587
+#  spring.mail.username=haiph12102001@gmail.com
+#  spring.mail.password=o k s y v v a f c f o o r q m k
+#  spring.mail.properties.mail.smtp.auth=true
+#  spring.mail.properties.mail.smtp.starttls.enable=true
+
+
+
+
+
